@@ -262,6 +262,7 @@
   gap: 2rem;
   border-radius: 9px;
   overflow: hidden;
+  background-color: #18a0fb;
 
   transition: all 0.3s;
 }
@@ -278,7 +279,7 @@
 
 .nome-membro {
   font-size: 2rem;
-  color: #222;
+  color: #fff;
   margin-bottom: 1.2rem;
 
   transition: all 0.3s;
