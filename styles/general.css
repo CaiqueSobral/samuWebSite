@@ -40,7 +40,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  gap: 8rem;
+  gap: 10rem;
 
   margin-left: 2.4rem;
   margin-right: 2.4rem;
