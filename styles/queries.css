@@ -278,11 +278,23 @@
 }
 
 @media (max-width: 27em) {
+  .section-subtitle {
+    font-size: 1rem;
+  }
+  .section-title {
+    font-size: 2.8rem;
+  }
   .main-header {
     justify-content: center;
   }
   .main-nav-list {
     display: none;
+  }
+  .card-membros {
+    width: 18rem;
+  }
+  .nome-membro {
+    font-size: 1.6rem;
   }
   .main-hero-first-section {
     width: 90%;
@@ -298,5 +310,59 @@
   }
   .hero-cta {
     gap: 1rem;
+  }
+  .featured-title {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 24em) {
+  .hero-main-text {
+    font-size: 2rem;
+  }
+  .hero-main-description {
+    font-size: 1.2rem;
+  }
+  .cta-btn:link,
+  .cta-btn:visited {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
+  .cta-btn-more:link,
+  .cta-btn-more:visited {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+  }
+  .featured-title {
+    text-align: center;
+    font-size: 1rem;
+  }
+  .logos {
+    height: 4rem;
+  }
+  .logos p {
+    font-size: 1rem;
+  }
+  .testimonial-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 19em) {
+  .hero-main-text {
+    font-size: 1.8rem;
+  }
+  .hero-main-description {
+    font-size: 1rem;
+  }
+  .cta-btn:link,
+  .cta-btn:visited {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.2rem;
+  }
+  .cta-btn-more:link,
+  .cta-btn-more:visited {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.2rem;
   }
 }
