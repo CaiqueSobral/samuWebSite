@@ -1,0 +1,92 @@
+/******************************************/
+/* BELOW 1550px */
+/******************************************/
+
+@media (max-width: 97em) {
+  .hero-main-text {
+    font-size: 5.6rem;
+  }
+}
+
+/******************************************/
+/* BELOW 1550px */
+/******************************************/
+
+@media (max-width: 89em) {
+  .hero-main-text {
+    font-size: 4.8rem;
+  }
+  .hero-main-description {
+    font-size: 1.4rem;
+  }
+}
+
+/******************************************/
+/* BELOW 1230px */
+/******************************************/
+
+@media (max-width: 77em) {
+  .container {
+    gap: 6rem;
+  }
+  .main-hero {
+    height: 70vh;
+  }
+  .hero-main-text {
+    font-size: 4rem;
+  }
+  .hero-main-description {
+    font-size: 1.2rem;
+  }
+  .nome-membro {
+    font-size: 1.8rem;
+  }
+}
+
+/******************************************/
+/* BELOW 1070px */
+/******************************************/
+
+@media (max-width: 67em) {
+  .container {
+    gap: 6rem;
+  }
+  .main-hero {
+    flex-direction: column-reverse;
+    margin-top: 4rem;
+  }
+  .main-hero-first-section {
+    width: 80%;
+  }
+  .div-imagens-hero {
+    width: 80%;
+  }
+  .hero-main-text {
+    font-size: 4.8rem;
+    text-align: center;
+  }
+  .hero-main-description {
+    font-size: 1.8rem;
+    align-self: center;
+  }
+  .div-time {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .card-membros {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  .nome-membro {
+    font-size: 1.8rem;
+  }
+  .section-project {
+    gap: 2rem;
+  }
+}
