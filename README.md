@@ -11,4 +11,3 @@ This is a website made for my university end of graduation project.
 
 - HTML
 - CSS
-- Javascript
